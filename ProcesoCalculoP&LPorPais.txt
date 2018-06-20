@@ -1,0 +1,34 @@
+CONFIGURACION: 
+- Mantenimiento de Sociedades (ALPA, ASGT, ALGT,...)
+- Mantenimiento de Centros de Costos (Codigo, Nombre, IdSociedad).
+- Se debe tener mapeado que cuentas pertenecientes a que Centro de Costo, van a ser excluidas para el cálculo del P&L. Ejemplo: Del Centro de costo "Comercial (ventas)" excluir ctas: 7000000, 7000020, etc.
+
+Proceso:
+
+Pivot Table 1
+1. Se sube el reporte excel sabana.
+2. Se filtra por Centro de Costo ("Denominacion Objeto"): Solo "Comercial (Ventas)" y "Ventas Oncología". 
+3. Se muestra la suma de montos en dólares (Importe ML3) agrupando por Cuenta (Cl.Coste [descripción de la cuenta es "Denom.clase de coste"]) y por País(Imputacion auxiliar_1).
+4. CONFIGURACION: Se debe tener mapeado que cuentas pertenecientes a que Centro de Costo, van a ser excluidas para el cálculo del P&L. Ejemplo: Del Centro de costo "Comercial (ventas)" excluir ctas: 7000000, 7000020, etc.
+5. Se excluyen esas cuentas de la suma agrupada en el punto 3.
+
+Pivot Table 2
+6. Se filtra por Centro de Costo ("Denominacion Objeto"): "HR". 
+7. Se muestra la suma de montos en dólares (Importe ML3) agrupando por Cuenta (Cl.Coste [descripción de la cuenta es "Denom.clase de coste"]) y por País(Imputacion auxiliar_1).
+
+Pivot Table 3
+8. Luego Se filtra por Centro de Costo ("Denominacion Objeto"): solo "Other Income".
+9. Se agrupa por País (Imputacion auxiliar_1) y por Centro de costo (Centro coste, descripcion es "Denominacion objeto"), por Cuenta (Cl.Coste [descripción de la cuenta es "Denom.clase de coste"]). Y por Sociedad ("Sociedad"). Y se muestra la Suma de montos en dólares (Importe ML3).
+
+10. Repetir Para: "Distribution", "promotion", "Marketing"...
+-> Se filtra por Centro de Costo ("Denominacion Objeto"): solo "Distribution". 
+-> Excluir las cuentas configuradas a excluirse para ese centro de costo.
+-> Se agrupa por País (Imputacion auxiliar_1) y por Centro de costo (Centro coste, descripcion es "Denominacion objeto"), por Cuenta (Cl.Coste [descripción de la cuenta es "Denom.clase de coste"]). Y por Sociedad ("Sociedad"). Y se muestra la Suma de montos en dólares (Importe ML3).
+
+
+Conclusión:
+1. Mantenimiento de cuentas.
+2. Definir que cuentas pertenecen a que centro de costos: (promotion, distribution, marketing,..)
+3. Agrupar por país y por centro de costos(cuentas).
+4. 
+
