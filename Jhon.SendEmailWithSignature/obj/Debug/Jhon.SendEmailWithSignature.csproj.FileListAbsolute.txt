@@ -1,0 +1,14 @@
+C:\SourceCode\Mio\Mail\Examples\VS2015\Jhon.SendEmailWithSignature\bin\Debug\Jhon.SendEmailWithSignature.exe.config
+C:\SourceCode\Mio\Mail\Examples\VS2015\Jhon.SendEmailWithSignature\bin\Debug\Jhon.SendEmailWithSignature.exe
+C:\SourceCode\Mio\Mail\Examples\VS2015\Jhon.SendEmailWithSignature\bin\Debug\Jhon.SendEmailWithSignature.pdb
+C:\SourceCode\Mio\Mail\Examples\VS2015\Jhon.SendEmailWithSignature\bin\Debug\Mail.dll
+C:\SourceCode\Mio\Mail\Examples\VS2015\Jhon.SendEmailWithSignature\bin\Debug\Mail.xml
+C:\SourceCode\Mio\Mail\Examples\VS2015\Jhon.SendEmailWithSignature\obj\Debug\Jhon.SendEmailWithSignature.csprojResolveAssemblyReference.cache
+C:\SourceCode\Mio\Mail\Examples\VS2015\Jhon.SendEmailWithSignature\obj\Debug\Jhon.SendEmailWithSignature.exe
+C:\SourceCode\Mio\Mail\Examples\VS2015\Jhon.SendEmailWithSignature\obj\Debug\Jhon.SendEmailWithSignature.pdb
+C:\SourceCode\Mio\Mail\Examples\VS2015\Jhon.SendEmailWithSignature\bin\Debug\Archivo.txt
+C:\SourceCode\Mio\Mail\Examples\VS2015\Jhon.SendEmailWithSignature\bin\Debug\Firma.jpg
+C:\SourceCode\Mio\Mail\Examples\VS2015\Jhon.SendEmailWithSignature\bin\Debug\Notificacion.template
+C:\SourceCode\Mio\Mail\Examples\VS2015\Jhon.SendEmailWithSignature\bin\Debug\EASendMail45.dll
+C:\SourceCode\Mio\Mail\Examples\VS2015\Jhon.SendEmailWithSignature\bin\Debug\Test.cer
+C:\SourceCode\Mio\Mail\Examples\VS2015\Jhon.SendEmailWithSignature\bin\Debug\Test.pfx

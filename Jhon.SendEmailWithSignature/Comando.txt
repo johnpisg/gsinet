@@ -1,0 +1,4 @@
+﻿makecert.exe -pe -r -sv Test_Keys.pvk -n "CN=Jhon BDG,E=jsamame@bdgsa.net" -sky exchange Test.cer
+ir a:
+"C:\Program Files (x86)\Windows Kits\8.0\bin\x64"
+pvk2pfx.exe -pvk Test_Keys.pvk -spc Test.cer -pfx Test.pfx
